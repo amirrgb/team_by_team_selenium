@@ -11,7 +11,6 @@ from selenium.webdriver.common.keys import Keys
 from functools import partial
 import json
 
-user, password, host = 'root', 'kian1381', 'localhost'
 teamsDataBase, teamsLinksDataBase, leaguesDataBase = "teams_datas", "teams_links", "leagues_datas"
 
 executablePath = "C://SofaScore/ChromeDriver/ChromeDriver.exe"
@@ -19,10 +18,6 @@ teamsDataLogFile = 'C://SofaScore/teamsDataLog.txt'
 teamsDataTerminalLogFile = 'C://SofaScore/teamsDataTerminalLog.txt'
 screenshotFilePath = "C:/SofaScore/MatchesWithoutPopupResultScreenshots/"
 
-executablePath = "D://Python/ChromeDriver/ChromeDriver.exe"
-teamsDataLogFile = 'D://python/teamsDataLog.txt'
-teamsDataTerminalLogFile = 'D://python/teamsDataTerminalLog.txt'
-screenshotFilePath = "D://python/sofaProjects/MatchesWithoutPopupResultScreenshots/"
 
 def loadUrl(driver, url):
     firstTimeLoad = True
